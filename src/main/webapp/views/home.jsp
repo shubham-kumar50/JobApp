@@ -37,37 +37,30 @@ p {
 <body>
 
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-clr">
-		<div class="container">
-			<a class="navbar-brand fs-1 fw-medium " href="#">Job
-				Portal Web App</a>
-			<button class="navbar-toggler" type="button"
-				data-bs-toggle="collapse" data-bs-target="#navbarNav"
-				aria-controls="navbarNav" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav ms-auto">
-					<li class="nav-item"><a class="nav-link" href="home">Home</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="viewalljobs">All
-							Jobs</a></li>
-
-					<li class="nav-item"><a class="nav-link"
-						href="https://telusko.com/">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container">
+            <a class="navbar-brand fs-1 fw-medium" href="#">Job Portal Web App</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="viewalljobs">All Jobs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://telusko.com/">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 	<div class="container mt-5">
 		<div class="row">
 			<!-- Card 1 -->
 			<div class="col-md-6 mb-5">
-				<div class="card bg-warning">
+				<div class="card">
 					<div class="card-body text-center">
-						<h5 class="card-title">View AllJobs</h5>
+						<h5 class="card-title">View All Jobs</h5>
 						<form action="/viewalljobs" method="get">
 							<!-- Add your form fields here -->
 							<button type="submit" class="btn btn-primary">Submit</button>

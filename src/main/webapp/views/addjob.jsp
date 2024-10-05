@@ -45,7 +45,7 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item"><a class="nav-link" href="home">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="viewalljobs">About</a></li>
+						<li class="nav-item"><a class="nav-link" href="viewalljobs">All Jobs</a></li>
 
 						<li class="nav-item"><a class="nav-link" href="https://telusko.com/">Contact</a>
 						</li>
@@ -93,6 +93,8 @@
 										name="postTechStack" required>
 										<!-- Add options dynamically from your backend or provide static options -->
 										<option value="Java">Java</option>
+										<option value="Spring Boot">Spring Boot</option>
+										<option value="Git">Git</option>
 										<option value="JavaScript">JavaScript</option>
 										<!-- Additional options -->
 										<option value="Swift">Swift</option>
